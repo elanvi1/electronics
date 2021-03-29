@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Contact</title>
+
+    <link rel="icon" type="image/png" href="../images/logo2.png" />
+
+    <meta name="description" content="Electronică Micluț - Contact" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark myNavbar py-0" id="navbarLE">
+      <div class="container text-center">
+        <a href="index.html" class="navbar-brand">
+          <img src="../images/logo2.png" alt="" class="img-fluid Logo" />
+          <strong>ElectroDesign</strong>
+        </a>
+
+        <button
+          class="navbar-toggler bg-light"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-label='navbar toggle'
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" id="tab1">
+              <a href="index.html" class="nav-link py-4">Home</a>
+            </li>
+
+            <li class="nav-item" id="tab2">
+              <a href="despreNoi.html" class="nav-link py-4">About Us</a>
+            </li>
+
+            <li class="nav-item" id="myDropdown">
+              <a href="lucrariExecutate.html" class="nav-link py-4"
+                >Experience</a
+              >
+            </li>
+
+            <li class="nav-item active" id="tab4">
+              <a href="contact.html" class="nav-link py-4">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="list-group text-center" id="languages">
+          <a href="../contact.html" class="list-group-item py-0">
+            <img
+              src="../images/Limba romana.gif"
+              alt="Limba Romana"
+              class="py-0"
+            />
+            <span>RO</span>
+          </a>
+
+          <a href="contact.html" class="list-group-item py-0 my-0">
+            <img
+              src="../images/English language.png"
+              alt="English language"
+              class="py-0"
+            />
+            <span>EN</span>
+          </a>
+        </ul>
+
+        <a href="https://www.cuptoare-miclut.ro" class='ml-4' id='cuptoare' target="_blank">Cuptoare</a>
+      </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <header id="" class="page-header">
+      <div class="dark-overlay align-items-center d-flex">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1 class=""><strong>Contact</strong></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- GOOGLE MAPS + DATA CONTACT -->
+
+    <section id="contact" class="mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-4" id="map">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe id="gmap_canvas" src="" title="Google maps location"> </iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 text-center mt-4">
+            <h1 class="">SC Proiectări Cuptoare Micluț SRL</h1>
+
+            <p class="lead pt-3">
+              Address: Bucharest, Sector 4, Metalurgiei Blvd 78, Romania
+            </p>
+            <h5>For more details contact us at:</h5>
+            <p class="lead pt-3">Tel: +40736 343 454</p>
+
+            <p class="lead">E-mail: miclutbogdan@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="dark-overlay"></div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/googleMaps.js"></script>
+  </body>
+</html>
